@@ -1,13 +1,86 @@
-# Hi there, I'm Pham Bich Tram (Aspiring QA Engineer)
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>QA Tester Portfolio</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #333;
+    }
+    .project {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
+</head>
 
-## Giới thiệu
-Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại học Sư phạm TP.HCM**. Với định hướng trở thành một **Software QA Engineer**, tôi luôn tập trung vào việc đảm bảo chất lượng phần mềm thông qua tư duy phân tích hệ thống và kỹ thuật kiểm thử chuyên sâu.
+<body>
 
-## Kỹ năng chuyên môn (Skills)
-- **Testing:** Manual Testing, API Testing, Mobile Testing, UI/UX Testing, Regression Testing.
-- **Languages & Frameworks:** PHP (Laravel), Java, Python, C++, React Native, Angular, Node.js.
-- **Tools:** GitHub, Postman, Mendix, Android Studio, VS Code, LaTeX.
+<header>
+  <h1>Phạm Bích Trâm</h1>
+  <p>QA Tester | Manual Testing | Bug Reporting</p>
+</header>
 
+<section>
+  <h2> Giới thiệu</h2>
+  <p>
+    Em là sinh viên CNTT định hướng trở thành QA Tester.
+    Có kinh nghiệm viết test case, test plan và bug report.
+  </p>
+</section>
+
+<section>
+  <h2> Kỹ năng</h2>
+  <ul>
+    <li>Manual Testing</li>
+    <li>Test Case Design</li>
+    <li>Bug Reporting</li>
+    <li>GitHub</li>
+  </ul>
+</section>
+
+<section>
+  <h2> Testing Projects</h2>
+
+  <div class="project">
+    <h3>Manual Testing - Login System</h3>
+    <p>Kiểm thử chức năng đăng nhập với 20+ test cases và bug report.</p>
+    <ul>
+      <li>Test Plan</li>
+      <li>Test Cases</li>
+      <li>Bug Reports (Severity & Priority)</li>
+    </ul>
+    <a href="https://github.com/BTrammmm/manual-testing-project" target="_blank">
+      🔗 Xem GitHub Project
+    </a>
+  </div>
+
+  
 ## Dự án tiêu biểu (Featured Projects)
 
 ### 1. Ứng dụng Bán hoa tươi trực tuyến (Flower Delivery)
@@ -34,15 +107,7 @@ Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại họ
 - **Vai trò:** Manual Tester.
 - **Điểm nhấn QA:** - Kiểm thử luồng nghiệp vụ (End-to-End Testing): Từ tìm kiếm sản phẩm, thêm vào giỏ hàng đến hoàn tất đơn hàng.
     - Thực hiện Regression Testing để đảm bảo các tính năng cũ không bị lỗi khi cập nhật giao diện mới.
-  
-<h2>🧪 Testing Projects</h2>
-
-<p><b>Manual Testing - Login System</b></p>
-<p>Dự án kiểm thử thủ công bao gồm test plan, test cases và bug report.</p>
-
-<a href="https://github.com/BTrammmm/manual-testing-project" target="_blank">
-Xem GitHub Project
-</a>
+</section>
 
 ## Chứng chỉ 
 - **Mendix Rapid Developer**
@@ -53,3 +118,8 @@ Xem GitHub Project
 - **LinkedIn:** www.linkedin.com/in/phambichtram-it
 - **Email:** btramphamm@gmail.com
 - **GitHub:** [github.com/BTrammmm](https://github.com/BTrammmm)
+
+</body>
+</html>
+
+
