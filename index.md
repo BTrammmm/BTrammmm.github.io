@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>QA Tester Portfolio</title>
+
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       margin: 0;
       background: #f5f5f5;
     }
+
     header {
       background: #222;
       color: white;
       padding: 30px;
       text-align: center;
     }
+
     section {
       padding: 30px;
       max-width: 900px;
@@ -23,18 +26,27 @@
       margin-top: 20px;
       border-radius: 10px;
     }
+
     h2 {
       color: #333;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
     }
+
     .project {
       border: 1px solid #ddd;
       padding: 15px;
       border-radius: 8px;
-      margin-top: 10px;
+      margin-top: 15px;
     }
+
     a {
       color: blue;
       text-decoration: none;
+    }
+
+    ul {
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -76,50 +88,69 @@
       <li>Bug Reports (Severity & Priority)</li>
     </ul>
     <a href="https://github.com/BTrammmm/manual-testing-project" target="_blank">
-      🔗 Xem GitHub Project
+       Xem GitHub Project
     </a>
   </div>
 
-  
-## Dự án tiêu biểu (Featured Projects)
-
-### 1. Ứng dụng Bán hoa tươi trực tuyến (Flower Delivery)
-- **Công nghệ:** React Native, Node.js, MongoDB.
-- **Vai trò:** Developer & QA Tester.
-- **Điểm nhấn QA:** - Thực hiện kiểm thử giao diện (UI Testing) trên thiết bị di động đảm bảo tính đáp ứng (Responsiveness).
-    - Kiểm thử tích hợp các API lấy danh sách và chi tiết sản phẩm.
-    - Quản lý luồng người dùng từ đăng ký đến thanh toán.
-
-### 2. Hệ thống Đề thi trắc nghiệm trực tuyến
-- **Công nghệ:** Laravel (MVC), PHP, MySQL.
-- **Vai trò:** Backend Developer & Logic QA.
-- **Điểm nhấn QA:** - Kiểm thử logic nghiệp vụ (Business Logic): Thuật toán đảo câu hỏi và tính điểm tự động chính xác.
-    - Đảm bảo tính toàn vẹn dữ liệu giữa các bảng môn học, lớp học phần và kết quả thi.
-
-### 3. Hệ thống Chia sẻ và Tra cứu Tài liệu
-- **Công nghệ:** Angular, Node.js, MongoDB.
-- **Vai trò:** System Analyst & QA.
-- **Điểm nhấn QA:** - Tham gia phân tích yêu cầu và thiết kế quy trình phần mềm chuẩn (SDLC).
-    - Kiểm thử phân quyền người dùng và chức năng tra cứu tài liệu khoa học hiệu quả.
-
-### 4. Website Thương mại điện tử (Phones & Laptops)
-- **Công nghệ:** React, Firebase.
-- **Vai trò:** Manual Tester.
-- **Điểm nhấn QA:** - Kiểm thử luồng nghiệp vụ (End-to-End Testing): Từ tìm kiếm sản phẩm, thêm vào giỏ hàng đến hoàn tất đơn hàng.
-    - Thực hiện Regression Testing để đảm bảo các tính năng cũ không bị lỗi khi cập nhật giao diện mới.
 </section>
 
-## Chứng chỉ 
-- **Mendix Rapid Developer**
-- **Test Automation Foundation** (Test Automation University)
-- **Google Cloud Digital Leader Badges**
+<section>
+  <h2> Dự án tiêu biểu</h2>
 
-## Liên hệ 
-- **LinkedIn:** www.linkedin.com/in/phambichtram-it
-- **Email:** btramphamm@gmail.com
-- **GitHub:** [github.com/BTrammmm](https://github.com/BTrammmm)
+  <div class="project">
+    <h3>Ứng dụng Bán hoa tươi trực tuyến</h3>
+    <p><b>Công nghệ:</b> React Native, Node.js, MongoDB</p>
+    <ul>
+      <li>Kiểm thử giao diện (UI Testing)</li>
+      <li>Kiểm thử API sản phẩm</li>
+      <li>Kiểm thử luồng người dùng</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Hệ thống Đề thi trắc nghiệm</h3>
+    <p><b>Công nghệ:</b> Laravel, PHP, MySQL</p>
+    <ul>
+      <li>Kiểm thử logic nghiệp vụ</li>
+      <li>Đảm bảo tính chính xác tính điểm</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Hệ thống Tra cứu Tài liệu</h3>
+    <p><b>Công nghệ:</b> Angular, Node.js</p>
+    <ul>
+      <li>Phân tích yêu cầu hệ thống</li>
+      <li>Kiểm thử phân quyền người dùng</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Website Thương mại điện tử</h3>
+    <p><b>Công nghệ:</b> React, Firebase</p>
+    <ul>
+      <li>End-to-End Testing</li>
+      <li>Regression Testing</li>
+    </ul>
+  </div>
+
+</section>
+
+<section>
+  <h2> Chứng chỉ</h2>
+  <ul>
+    <li>Mendix Rapid Developer</li>
+    <li>Test Automation Foundation</li>
+    <li>Google Cloud Digital Leader</li>
+  </ul>
+</section>
+
+<section>
+  <h2> Liên hệ</h2>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">Xem hồ sơ</a></p>
+  <p>Email: btramphamm@gmail.com</p>
+  <p>GitHub: <a href="https://github.com/BTrammmm">github.com/BTrammmm</a></p>
+</section>
 
 </body>
 </html>
-
-
