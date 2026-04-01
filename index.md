@@ -34,6 +34,15 @@ Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại họ
 - **Vai trò:** Manual Tester.
 - **Điểm nhấn QA:** - Kiểm thử luồng nghiệp vụ (End-to-End Testing): Từ tìm kiếm sản phẩm, thêm vào giỏ hàng đến hoàn tất đơn hàng.
     - Thực hiện Regression Testing để đảm bảo các tính năng cũ không bị lỗi khi cập nhật giao diện mới.
+  
+<h2>🧪 Testing Projects</h2>
+
+<p><b>Manual Testing - Login System</b></p>
+<p>Dự án kiểm thử thủ công bao gồm test plan, test cases và bug report.</p>
+
+<a href="https://github.com/BTrammmm/manual-testing-project" target="_blank">
+Xem GitHub Project
+</a>
 
 ## Chứng chỉ 
 - **Mendix Rapid Developer**
