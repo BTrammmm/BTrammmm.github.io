@@ -3,7 +3,7 @@
 ## Giới thiệu
 Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại học Sư phạm TP.HCM**. Với định hướng trở thành một **Software QA Engineer**, tôi luôn tập trung vào việc đảm bảo chất lượng phần mềm thông qua tư duy phân tích hệ thống và kỹ thuật kiểm thử chuyên sâu.
 
-## 🛠 Kỹ năng chuyên môn (Skills)
+## Kỹ năng chuyên môn (Skills)
 - **Testing:** Manual Testing, API Testing, Mobile Testing, UI/UX Testing, Regression Testing.
 - **Languages & Frameworks:** PHP (Laravel), Java, Python, C++, React Native, Angular, Node.js.
 - **Tools:** GitHub, Postman, Mendix, Android Studio, VS Code, LaTeX.
@@ -41,6 +41,6 @@ Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại họ
 - **Google Cloud Digital Leader Badges**
 
 ## Liên hệ 
-- **LinkedIn:** [www.linkedin.com/in/phambichtram-it]
-- **Email:** [btramphamm@gmail.]
+- **LinkedIn:** www.linkedin.com/in/phambichtram-it
+- **Email:** btramphamm@gmail.com
 - **GitHub:** [github.com/BTrammmm](https://github.com/BTrammmm)
