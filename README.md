@@ -1,46 +1,104 @@
-# Hi there, I'm Pham Bich Tram (Aspiring QA Engineer)
+<h1 align="center"> Pham Bich Tram</h1>
+<h3 align="center">QA Automation Tester | Software Testing Enthusiast</h3>
 
-## Giới thiệu
-Tôi là sinh viên ngành Công nghệ thông tin tại **Trường Đại học Sư phạm TP.HCM**. Với định hướng trở thành một **Software QA Engineer**, tôi luôn tập trung vào việc đảm bảo chất lượng phần mềm thông qua tư duy phân tích hệ thống và kỹ thuật kiểm thử chuyên sâu.
+<p align="center">
+  <a href="https://btrammmm.github.io/">
+    <img src="https://img.shields.io/badge/ Portfolio-Live-blue?style=for-the-badge">
+  </a>
+  <a href="https://github.com/BTrammmm">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/phambichtram-it">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
 
-## Kỹ năng chuyên môn (Skills)
-- **Testing:** Manual Testing, API Testing, Mobile Testing, UI/UX Testing, Regression Testing.
-- **Languages & Frameworks:** PHP (Laravel), Java, Python, C++, React Native, Angular, Node.js.
-- **Tools:** GitHub, Postman, Mendix, Android Studio, VS Code, LaTeX.
+---
 
-## Dự án tiêu biểu (Featured Projects)
+## About Me
 
-### 1.Ứng dụng Bán hoa tươi trực tuyến (Flower Delivery)
-- **Công nghệ:** React Native, Node.js, MongoDB.
-- **Vai trò:** Developer & QA Tester.
-- **Điểm nhấn QA:** - Thực hiện kiểm thử giao diện (UI Testing) trên thiết bị di động đảm bảo tính đáp ứng (Responsiveness).
-    - Kiểm thử tích hợp các API lấy danh sách và chi tiết sản phẩm.
-    - Quản lý luồng người dùng từ đăng ký đến thanh toán.
+I am an Information Technology student specializing in **Software Testing and QA Automation**.  
+I am passionate about improving software quality and ensuring reliable user experiences.
 
-### 2. Hệ thống Đề thi trắc nghiệm trực tuyến
-- **Công nghệ:** Laravel (MVC), PHP, MySQL.
-- **Vai trò:** Backend Developer & Logic QA.
-- **Điểm nhấn QA:** - Kiểm thử logic nghiệp vụ (Business Logic): Thuật toán đảo câu hỏi và tính điểm tự động chính xác.
-    - Đảm bảo tính toàn vẹn dữ liệu giữa các bảng môn học, lớp học phần và kết quả thi.
+ My focus areas:
+- Manual Testing  
+- Automation Testing (Selenium + Pytest)  
+- API Testing (Postman)  
+- Software Testing Life Cycle (STLC)  
 
-### 3. Hệ thống Chia sẻ và Tra cứu Tài liệu
-- **Công nghệ:** Angular, Node.js, MongoDB.
-- **Vai trò:** System Analyst & QA.
-- **Điểm nhấn QA:** - Tham gia phân tích yêu cầu và thiết kế quy trình phần mềm chuẩn (SDLC).
-    - Kiểm thử phân quyền người dùng và chức năng tra cứu tài liệu khoa học hiệu quả.
+ I aim to reduce defects, improve test efficiency, and contribute to high-quality software products.
 
-### 4. Website Thương mại điện tử (Phones & Laptops)
-- **Công nghệ:** React, Firebase.
-- **Vai trò:** Manual Tester.
-- **Điểm nhấn QA:** - Kiểm thử luồng nghiệp vụ (End-to-End Testing): Từ tìm kiếm sản phẩm, thêm vào giỏ hàng đến hoàn tất đơn hàng.
-    - Thực hiện Regression Testing để đảm bảo các tính năng cũ không bị lỗi khi cập nhật giao diện mới.
+---
 
-## Chứng chỉ (Certifications)
-- **Mendix Rapid Developer**
-- **Test Automation Foundation** (Test Automation University)
-- **Google Cloud Digital Leader Badges**
+## 🛠️ Tech Stack
 
-## Liên hệ (Contact)
-- **LinkedIn:** [www.linkedin.com/in/phambichtram-it]
-- **Email:** [btramphamm@gmail.com]
-- **GitHub:** [github.com/BTrammmm](https://github.com/BTrammmm)
+<p>
+<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge">
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</p>
+
+---
+
+## Projects
+
+### Automation Testing Framework
+- Built using **Selenium WebDriver + Pytest**  
+- Applied **Page Object Model (POM)**  
+- Automated Login & Search features  
+
+ https://github.com/BTrammmm/selenium-login-test  
+
+---
+
+### Web Application Testing
+ Designed 50+ test cases  
+ Performed UI, functional & API testing  
+ Reported and tracked defects  
+
+---
+
+### Online Quiz System (Team Project)
+ Role: Tester  
+ Performed UI & API testing  
+ Worked in Agile team environment  
+
+---
+
+## Certifications
+
+- Mendix Rapid Developer  
+- Google Generative AI  
+- Responsible AI  
+- Test Automation Foundation  
+- Google Sheets  
+
+---
+
+## GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=BTrammmm&show_icons=true&theme=tokyonight">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BTrammmm&layout=compact&theme=tokyonight">
+</p>
+
+---
+
+## Contact Me
+
+Email: btramphamm@gmail.com  
+GitHub: https://github.com/BTrammmm  
+LinkedIn: https://www.linkedin.com/in/phambichtram-it  
+
+---
+
+## Career Goal
+
+Seeking a **QA Tester / Automation Tester Internship**  
+to gain real-world experience and contribute to software quality.
+
+---
+
+<p align="center">✨ Thank you for visiting my portfolio ✨</p>
