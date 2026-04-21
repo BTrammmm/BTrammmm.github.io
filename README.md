@@ -30,7 +30,7 @@ I am passionate about improving software quality and ensuring reliable user expe
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <p>
 <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
