@@ -1,156 +1,212 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>QA Tester Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pham Bich Tram | QA Tester</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f5f5f5;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    header {
-      background: #222;
-      color: white;
-      padding: 30px;
-      text-align: center;
-    }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
-    section {
-      padding: 30px;
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      margin-top: 20px;
-      border-radius: 10px;
-    }
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
 
-    h2 {
-      color: #333;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
+/* NAVBAR */
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    z-index: 1000;
+}
 
-    .project {
-      border: 1px solid #ddd;
-      padding: 15px;
-      border-radius: 8px;
-      margin-top: 15px;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-    a {
-      color: blue;
-      text-decoration: none;
-    }
+nav a:hover {
+    color: #00eaff;
+}
 
-    ul {
-      padding-left: 20px;
-    }
-  </style>
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    animation: fadeIn 1.5s ease;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 20px;
+    padding: 12px 22px;
+    border-radius: 25px;
+    background: #00eaff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* SECTION */
+section {
+    padding: 80px 10%;
+}
+
+/* GLASS CARD */
+.card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 25px;
+    backdrop-filter: blur(12px);
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #00eaff;
+    color: black;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
 </head>
 
 <body>
 
-<header>
-  <h1>Phạm Bích Trâm</h1>
-  <p>QA Tester | Manual Testing | Bug Reporting</p>
-</header>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<section>
-  <h2> Giới thiệu</h2>
-  <p>
-    Em là sinh viên CNTT định hướng trở thành QA Tester.
-    Có kinh nghiệm viết test case, test plan và bug report.
-  </p>
+<div class="hero">
+    <h1>Pham Bich Tram</h1>
+    <p>QA Automation Tester | Software Testing Enthusiast</p>
+    <a class="btn" href="https://github.com/YOUR_USERNAME/cv.pdf">Download CV</a>
+</div>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+        I am an Information Technology student specializing in Software Testing and QA Automation.
+        I focus on ensuring software quality through structured testing processes and automation tools.
+        </p>
+    </div>
 </section>
 
-<section>
-  <h2> Kỹ năng</h2>
-  <ul>
-    <li>Manual Testing</li>
-    <li>Test Case Design</li>
-    <li>Bug Reporting</li>
-    <li>GitHub</li>
-  </ul>
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Selenium</span>
+            <span>Pytest</span>
+            <span>Manual Testing</span>
+            <span>API Testing</span>
+            <span>Postman</span>
+            <span>SQL</span>
+            <span>GitHub</span>
+        </div>
+    </div>
 </section>
 
-<section>
-  <h2> Testing Projects</h2>
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
 
-  <div class="project">
-    <h3>Manual Testing - Login System</h3>
-    <p>Kiểm thử chức năng đăng nhập với 20+ test cases và bug report.</p>
-    <ul>
-      <li>Test Plan</li>
-      <li>Test Cases</li>
-      <li>Bug Reports (Severity & Priority)</li>
-    </ul>
-    <a href="https://github.com/BTrammmm/manual-testing-project" target="_blank">
-       Xem GitHub Project
-    </a>
-  </div>
+        <h3>Selenium Automation Testing</h3>
+        <p>Automation testing framework using Selenium and Pytest.</p>
+        <a class="btn" href="https://github.com/BTrammmm">View Project</a>
 
+        <br><br>
+
+        <h3>Online Quiz System Testing</h3>
+        <p>Testing a real project with UI, API and functional testing.</p>
+    </div>
 </section>
 
-<section>
-  <h2> Dự án tiêu biểu</h2>
-
-  <div class="project">
-    <h3>Ứng dụng Bán hoa tươi trực tuyến</h3>
-    <p><b>Công nghệ:</b> React Native, Node.js, MongoDB</p>
-    <ul>
-      <li>Kiểm thử giao diện (UI Testing)</li>
-      <li>Kiểm thử API sản phẩm</li>
-      <li>Kiểm thử luồng người dùng</li>
-    </ul>
-  </div>
-
-  <div class="project">
-    <h3>Hệ thống Đề thi trắc nghiệm</h3>
-    <p><b>Công nghệ:</b> Laravel, PHP, MySQL</p>
-    <ul>
-      <li>Kiểm thử logic nghiệp vụ</li>
-      <li>Đảm bảo tính chính xác tính điểm</li>
-    </ul>
-  </div>
-
-  <div class="project">
-    <h3>Hệ thống Tra cứu Tài liệu</h3>
-    <p><b>Công nghệ:</b> Angular, Node.js</p>
-    <ul>
-      <li>Phân tích yêu cầu hệ thống</li>
-      <li>Kiểm thử phân quyền người dùng</li>
-    </ul>
-  </div>
-
-  <div class="project">
-    <h3>Website Thương mại điện tử</h3>
-    <p><b>Công nghệ:</b> React, Firebase</p>
-    <ul>
-      <li>End-to-End Testing</li>
-      <li>Regression Testing</li>
-    </ul>
-  </div>
-
+<section id="certifications">
+    <div class="card">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Mendix Rapid Developer</li>
+            <li>Google Generative AI</li>
+            <li>Responsible AI</li>
+            <li>Test Automation</li>
+        </ul>
+    </div>
 </section>
 
-<section>
-  <h2> Chứng chỉ</h2>
-  <ul>
-    <li>Mendix Rapid Developer</li>
-    <li>Test Automation Foundation</li>
-    <li>Google Cloud Digital Leader</li>
-  </ul>
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: btramphamm@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/BTrammmm">github.com/BTrammmm</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">Profile</a></p>
+    </div>
 </section>
 
-<section>
-  <h2> Liên hệ</h2>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">Xem hồ sơ</a></p>
-  <p>Email: btramphamm@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/BTrammmm">github.com/BTrammmm</a></p>
-</section>
+<footer>
+    <p>© 2026 Pham Bich Tram | QA Portfolio</p>
+</footer>
 
 </body>
 </html>
