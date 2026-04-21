@@ -3,178 +3,267 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pham Bich Tram | QA Engineer</title>
+<title>Pham Bich Tram | QA Tester</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
-body{background:#0f172a;color:white;}
-
-/* NAV */
-nav{
-display:flex;
-justify-content:space-between;
-padding:20px 10%;
-background:#020617;
-position:sticky;top:0;
-z-index:1000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-nav a{color:white;text-decoration:none;margin-left:20px;}
-nav a:hover{color:#38bdf8;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00eaff;
+}
 
 /* HERO */
-.hero{
-padding:120px 10%;
-text-align:center;
-background:linear-gradient(135deg,#020617,#0f172a);
-}
-.hero h1{font-size:48px;}
-.hero p{margin:15px 0;color:#94a3b8;}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-.btn{
-padding:12px 25px;
-border-radius:30px;
-background:#38bdf8;
-color:black;
-text-decoration:none;
-font-weight:600;
-margin:10px;
-display:inline-block;
+    animation: fadeIn 1.5s ease;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 15px;
+    padding: 12px 22px;
+    border-radius: 25px;
+    background: #00eaff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: white;
 }
 
 /* SECTION */
-section{padding:80px 10%;}
-
-/* GRID */
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
+section {
+    padding: 80px 10%;
 }
 
 /* CARD */
-.card{
-background:#1e293b;
-padding:25px;
-border-radius:15px;
-transition:0.3s;
-}
-.card:hover{
-transform:translateY(-5px);
+.card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 25px;
+    backdrop-filter: blur(12px);
+    margin-bottom: 25px;
+    transition: 0.3s;
 }
 
-/* TITLE */
-h2{margin-bottom:20px;font-size:32px;}
-h3{margin-bottom:10px;}
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #00eaff;
+    color: black;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* LIST */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
 
 /* FOOTER */
-footer{text-align:center;padding:20px;background:#020617;color:#94a3b8;}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+}
 
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
 </style>
 </head>
 
 <body>
 
 <nav>
-<div><b>Pham Bich Tram</b></div>
-<div>
-<a href="#about">About</a>
-<a href="#services">What I Do</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-<h1>Delivering Quality Software Through Testing</h1>
-<p>QA Automation Tester | Ensuring Stability, Performance & Reliability</p>
+<div class="hero">
+    <h1>Pham Bich Tram</h1>
+    <p>QA Automation Tester | Ensuring Software Quality & Reliability</p>
 
-<a class="btn" href="https://github.com/BTrammmm">GitHub</a>
-<a class="btn" href="https://www.linkedin.com/in/phambichtram-it">LinkedIn</a>
-</section>
+    <a class="btn" href="https://github.com/BTrammmm">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/phambichtram-it">LinkedIn</a>
+</div>
 
 <!-- ABOUT -->
 <section id="about">
-<h2>About Me</h2>
-<p>
-I am an Information Technology student focusing on Software Testing and Quality Assurance. 
-I specialize in designing test cases, performing manual testing, and building automation frameworks using Selenium and Pytest.
-</p>
-<p>
-My goal is to improve product quality, reduce defects, and ensure reliable user experiences in real-world systems.
-</p>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+        I am an Information Technology student specializing in Software Testing and Quality Assurance.
+        I focus on ensuring software quality through structured testing processes, including manual testing,
+        API testing, and automation testing using Selenium WebDriver and Pytest.
+        </p>
+
+        <p>
+        I have experience with STLC, Agile workflows, and defect tracking, allowing me to work effectively
+        in real-world development environments. My goal is to improve software reliability, reduce defects,
+        and deliver high-quality products.
+        </p>
+
+        <p>
+        I am currently seeking a QA/Tester Internship to gain practical experience and contribute to real-world projects.
+        </p>
+    </div>
 </section>
 
-<!-- SERVICES -->
-<section id="services">
-<h2>What I Do</h2>
-
-<div class="grid">
-<div class="card">
-<h3>Manual Testing</h3>
-<p>Design and execute structured test cases to ensure functionality and usability.</p>
-</div>
-
-<div class="card">
-<h3>Automation Testing</h3>
-<p>Build scalable automation frameworks using Selenium WebDriver.</p>
-</div>
-
-<div class="card">
-<h3>API Testing</h3>
-<p>Validate backend systems and APIs using Postman.</p>
-</div>
-
-<div class="card">
-<h3>Quality Assurance</h3>
-<p>Ensure product reliability and performance through structured testing processes.</p>
-</div>
-</div>
+<!-- SKILLS -->
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Selenium</span>
+            <span>Pytest</span>
+            <span>Manual Testing</span>
+            <span>API Testing</span>
+            <span>Postman</span>
+            <span>SQL</span>
+            <span>GitHub</span>
+            <span>Agile</span>
+        </div>
+    </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
-<h2>Projects</h2>
+    <div class="card">
+        <h2>Projects</h2>
 
-<div class="grid">
+        <h3>Automation Testing Framework (Selenium + Pytest)</h3>
+        <p>
+        Developed an automation testing framework using Selenium WebDriver and Pytest,
+        applying Page Object Model (POM) for maintainability and scalability.
+        </p>
+        <ul>
+            <li>Automated Login and Search functionalities</li>
+            <li>Improved testing efficiency and reduced manual effort</li>
+            <li>Simulated real user scenarios</li>
+            <li><b>Tech:</b> Python, Selenium, Pytest</li>
+        </ul>
+        <a class="btn" href="https://github.com/BTrammmm/selenium-login-test">View Project</a>
 
-<div class="card">
-<h3>Automation Testing Framework</h3>
-<p>
-Developed a Selenium-based automation framework with Pytest and Page Object Model.
-</p>
-<a class="btn" href="https://github.com/BTrammmm/selenium-login-test">View</a>
-</div>
+        <br><br>
 
-<div class="card">
-<h3>Web App Testing</h3>
-<p>
-Performed manual and API testing with 50+ test cases and bug tracking.
-</p>
-</div>
+        <h3>Web Application Testing – Document Sharing System</h3>
+        <p>
+        Performed manual and API testing for a document sharing system.
+        </p>
+        <ul>
+            <li>Designed 50+ test cases</li>
+            <li>Performed UI, functional, and API testing</li>
+            <li>Reported and tracked bugs</li>
+            <li><b>Tools:</b> Postman, MySQL</li>
+        </ul>
 
-<div class="card">
-<h3>Online Quiz System</h3>
-<p>
-Worked as a tester in a real team project with UI and API testing.
-</p>
-</div>
+        <br><br>
 
-</div>
+        <h3>Online Quiz System (Team Project)</h3>
+        <p>
+        Worked as a tester in a team project for an online quiz system.
+        </p>
+        <ul>
+            <li>Created test cases and scenarios</li>
+            <li>Performed UI, API testing</li>
+            <li>Collaborated with team members</li>
+        </ul>
+
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <div class="card">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Mendix Rapid Developer Certification</li>
+            <li>Google Cloud – Generative AI</li>
+            <li>Responsible AI</li>
+            <li>Test Automation Foundation</li>
+            <li>Google Sheets</li>
+        </ul>
+    </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
-<h2>Contact</h2>
-<p>Email: btramphamm@gmail.com</p>
-<p>GitHub: github.com/BTrammmm</p>
-<p>LinkedIn: linkedin.com/in/phambichtram-it</p>
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: btramphamm@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/BTrammmm">github.com/BTrammmm</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">linkedin.com/in/phambichtram-it</a></p>
+    </div>
 </section>
 
 <footer>
-<p>© 2026 Pham Bich Tram | QA Portfolio</p>
+    <p>© 2026 Pham Bich Tram | QA Portfolio</p>
 </footer>
 
 </body>
