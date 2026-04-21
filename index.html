@@ -25,7 +25,7 @@ body {
 nav {
     position: sticky;
     top: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
     backdrop-filter: blur(10px);
     padding: 15px;
     display: flex;
@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 45px;
+    font-size: 48px;
 }
 
 .hero p {
@@ -68,7 +68,7 @@ nav a:hover {
 
 /* BUTTON */
 .btn {
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 12px 22px;
     border-radius: 25px;
     background: #00eaff;
@@ -76,6 +76,7 @@ nav a:hover {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -87,7 +88,7 @@ section {
     padding: 80px 10%;
 }
 
-/* GLASS CARD */
+/* CARD */
 .card {
     background: rgba(255,255,255,0.1);
     border-radius: 15px;
@@ -110,6 +111,12 @@ section {
     margin: 6px;
     border-radius: 20px;
     font-size: 14px;
+}
+
+/* LIST */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 /* FOOTER */
@@ -137,22 +144,38 @@ footer {
     <a href="#contact">Contact</a>
 </nav>
 
+<!-- HERO -->
 <div class="hero">
     <h1>Pham Bich Tram</h1>
-    <p>QA Automation Tester | Software Testing Enthusiast</p>
-    <a class="btn" href="https://github.com/YOUR_USERNAME/cv.pdf">Download CV</a>
+    <p>QA Automation Tester | Ensuring Software Quality & Reliability</p>
+
+    <a class="btn" href="https://github.com/BTrammmm">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/phambichtram-it">LinkedIn</a>
 </div>
 
+<!-- ABOUT -->
 <section id="about">
     <div class="card">
         <h2>About Me</h2>
         <p>
-        I am an Information Technology student specializing in Software Testing and QA Automation.
-        I focus on ensuring software quality through structured testing processes and automation tools.
+        I am an Information Technology student specializing in Software Testing and Quality Assurance.
+        I focus on ensuring software quality through structured testing processes, including manual testing,
+        API testing, and automation testing using Selenium WebDriver and Pytest.
+        </p>
+
+        <p>
+        I have experience with STLC, Agile workflows, and defect tracking, allowing me to work effectively
+        in real-world development environments. My goal is to improve software reliability, reduce defects,
+        and deliver high-quality products.
+        </p>
+
+        <p>
+        I am currently seeking a QA/Tester Internship to gain practical experience and contribute to real-world projects.
         </p>
     </div>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
     <div class="card">
         <h2>Skills</h2>
@@ -164,43 +187,78 @@ footer {
             <span>Postman</span>
             <span>SQL</span>
             <span>GitHub</span>
+            <span>Agile</span>
         </div>
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
     <div class="card">
         <h2>Projects</h2>
 
-        <h3>Selenium Automation Testing</h3>
-        <p>Automation testing framework using Selenium and Pytest.</p>
-        <a class="btn" href="https://github.com/BTrammmm">View Project</a>
+        <h3>Automation Testing Framework (Selenium + Pytest)</h3>
+        <p>
+        Developed an automation testing framework using Selenium WebDriver and Pytest,
+        applying Page Object Model (POM) for maintainability and scalability.
+        </p>
+        <ul>
+            <li>Automated Login and Search functionalities</li>
+            <li>Improved testing efficiency and reduced manual effort</li>
+            <li>Simulated real user scenarios</li>
+            <li><b>Tech:</b> Python, Selenium, Pytest</li>
+        </ul>
+        <a class="btn" href="https://github.com/BTrammmm/selenium-login-test">View Project</a>
 
         <br><br>
 
-        <h3>Online Quiz System Testing</h3>
-        <p>Testing a real project with UI, API and functional testing.</p>
+        <h3>Web Application Testing – Document Sharing System</h3>
+        <p>
+        Performed manual and API testing for a document sharing system.
+        </p>
+        <ul>
+            <li>Designed 50+ test cases</li>
+            <li>Performed UI, functional, and API testing</li>
+            <li>Reported and tracked bugs</li>
+            <li><b>Tools:</b> Postman, MySQL</li>
+        </ul>
+
+        <br><br>
+
+        <h3>Online Quiz System (Team Project)</h3>
+        <p>
+        Worked as a tester in a team project for an online quiz system.
+        </p>
+        <ul>
+            <li>Created test cases and scenarios</li>
+            <li>Performed UI, API testing</li>
+            <li>Collaborated with team members</li>
+        </ul>
+
     </div>
 </section>
 
+<!-- CERTIFICATIONS -->
 <section id="certifications">
     <div class="card">
         <h2>Certifications</h2>
         <ul>
-            <li>Mendix Rapid Developer</li>
-            <li>Google Generative AI</li>
+            <li>Mendix Rapid Developer Certification</li>
+            <li>Google Cloud – Generative AI</li>
             <li>Responsible AI</li>
-            <li>Test Automation</li>
+            <li>Test Automation Foundation</li>
+            <li>Google Sheets</li>
         </ul>
     </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
     <div class="card">
         <h2>Contact</h2>
         <p>Email: btramphamm@gmail.com</p>
         <p>GitHub: <a href="https://github.com/BTrammmm">github.com/BTrammmm</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">Profile</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/phambichtram-it">linkedin.com/in/phambichtram-it</a></p>
     </div>
 </section>
 
